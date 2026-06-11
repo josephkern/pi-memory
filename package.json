@@ -2,11 +2,18 @@
   "name": "pi-memory",
   "version": "0.1.0",
   "description": "Persistent file-based memory for the pi coding agent: a capped always-injected MEMORY.md index per scope (global and in-repo project) plus on-demand topic files.",
-  "keywords": ["pi-package", "pi", "memory", "coding-agent"],
+  "keywords": [
+    "pi-package",
+    "pi",
+    "memory",
+    "coding-agent"
+  ],
   "license": "MIT",
   "type": "module",
   "pi": {
-    "extensions": ["./src/index.ts"]
+    "extensions": [
+      "./src/index.ts"
+    ]
   },
   "scripts": {
     "typecheck": "tsc --noEmit",
@@ -19,5 +26,9 @@
     "@earendil-works/pi-coding-agent": "^0.79.1",
     "@types/node": "^22.0.0",
     "typescript": "^5.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josephkern/pi-memory.git"
   }
 }
