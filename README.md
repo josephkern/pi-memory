@@ -23,8 +23,9 @@ Project memory is only read in **trusted** projects, and the extension never cre
 ## Install
 
 ```bash
-pi install git:github.com/josephkern/pi-memory        # global
-pi install -l git:github.com/josephkern/pi-memory     # project-local (.pi/settings.json)
+pi install npm:@josephakern/pi-memory                 # global, from npm
+pi install git:github.com/josephkern/pi-memory        # global, from git
+pi install -l npm:@josephakern/pi-memory              # project-local (.pi/settings.json)
 ```
 
 Or for development:

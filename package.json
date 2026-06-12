@@ -1,5 +1,5 @@
 {
-  "name": "pi-memory",
+  "name": "@josephakern/pi-memory",
   "version": "0.1.0",
   "description": "Persistent file-based memory for the pi coding agent: a capped always-injected MEMORY.md index per scope (global and in-repo project) plus on-demand topic files.",
   "keywords": [
@@ -30,5 +30,11 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/josephkern/pi-memory.git"
-  }
+  },
+  "files": [
+    "src",
+    "docs",
+    "README.md",
+    "LICENSE"
+  ]
 }
