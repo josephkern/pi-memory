@@ -17,7 +17,8 @@
   },
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "test": "node --experimental-strip-types --test test/*.test.ts"
+    "test": "node --experimental-strip-types --test test/*.test.ts",
+    "prepublishOnly": "npm run typecheck && npm test"
   },
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": "*"
@@ -29,12 +30,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/josephkern/pi-memory.git"
+    "url": "git+https://github.com/josephkern/pi-memory.git"
   },
   "files": [
     "src",
     "docs",
     "README.md",
     "LICENSE"
-  ]
+  ],
+  "author": "Joseph Kern <joseph.a.kern@gmail.com>",
+  "homepage": "https://github.com/josephkern/pi-memory#readme",
+  "bugs": {
+    "url": "https://github.com/josephkern/pi-memory/issues"
+  }
 }
