@@ -1,6 +1,6 @@
 {
   "name": "@josephakern/pi-memory",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Persistent file-based memory for the pi coding agent: a capped always-injected MEMORY.md index per scope (global and in-repo project) plus on-demand topic files.",
   "keywords": [
     "pi-package",
@@ -12,7 +12,7 @@
   "type": "module",
   "pi": {
     "extensions": [
-      "./src/index.ts"
+      "./extensions/index.ts"
     ]
   },
   "scripts": {
@@ -36,7 +36,8 @@
     "src",
     "docs",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "extensions"
   ],
   "author": "Joseph Kern <joseph.a.kern@gmail.com>",
   "homepage": "https://github.com/josephkern/pi-memory#readme",
